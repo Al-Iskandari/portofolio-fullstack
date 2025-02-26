@@ -1,9 +1,12 @@
-import 'react'
+import {useRef} from 'react';
+import { ViewPortObserver } from '../hooks/ViewPortObserver';
 
 function Experiences() {
+    const ref1 = useRef();
+    const isVisible1 = ViewPortObserver(ref1);
 
   return (
-    <section id="experiences" className="text-gray-700 body-font border-t border-gray-200">
+    <section id="experiences" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">APPLIED SKILLS</h2>
@@ -64,10 +67,10 @@ function Experiences() {
                                 <i className="fas fa-check-circle text-white"></i>
                             </div>
                             <div className="ml-10">
-                                <div className="font-bold">Website Informasi Yayasan</div>
+                                <div className="font-bold">Karimun Berazam Foundation website</div>
                                 <div className="italic md:mb-4">2017 | Yayasan Karimun Berazam</div>
                                 <div className="mb-10">
-                                    Website Yayasan Karimun Berazam adalah sebuah website profile yang dibuat secara dinamis untuk perbaharuan kegiatan yayasan dalam bentuk agenda kerja, galeri foto, artikel dan diskusi.
+                                Karimun Berazam Foundation website is a profile website that is dynamically created to update the foundation&apos;s activities in the form of work agendas, photo galleries, articles and discussions.
                                     <br />
                                 <strong>Development stack:</strong><br/>
                                 <ul>
@@ -85,9 +88,9 @@ function Experiences() {
                                 <i className="fas fa-check-circle text-white"></i>
                             </div>
                             <div className="ml-10">
-                                <div className="font-bold">Website Informasi Desa</div>
+                                <div className="font-bold">Village Information Website</div>
                                 <div className="italic md:mb-4">2020 | Desa Pangke Barat Karimun</div>
-                                <div className="mb-10">Pengembangan sistem informasi desa untuk menampilkan potensi desa pada sektor agrokultural, industri dan wisata. Halaman download berkas administrasi desa elektronik. Pemetaan koordinat potensi desa.
+                                <div className="mb-10">Development of a village information system to display village potential in the agricultural, industrial and tourism sectors. Electronic village administration file download page. Coordinate mapping of village potential.
                                     <br />
                                 <strong>Development stack:</strong><br/>
                                 <ul>
@@ -106,9 +109,9 @@ function Experiences() {
                                 <i className="fas fa-check-circle text-white"></i>
                             </div>
                             <div className="ml-10">
-                                <div className="font-bold">Sistem Jadwal Sholat dan Informasi Masjid Digital</div>
+                                <div className="font-bold">Digital Mosque Information and Prayer Schedule System</div>
                                 <div className="italic md:mb-4">2025 | Tamadun</div>
-                                <div className="mb-10">Pengembangan sistem informasi inovatif dalam menyajikan informasi masjid secara digital dengan akses kontrol yang lebih fleksibel. Menyediakan fitur pembaharuan kas masjid, informasi agenda dan kegiatan masjid, kalendar hijriah dan notifikasi hari besar islam, jadwal sholat yang lebih real time, UI/ UX yang lebih menarik dan interaktif.
+                                <div className="mb-10">Development of an innovative information system in presenting mosque information digitally with more flexible access control. Provides mosque cash update features, mosque agenda and activity information, lunar calendar and Islamic holiday notifications, more real time prayer schedules, more attractive and interactive UI / UX.
                                 <br />
                                 <strong>Development stack:</strong><br/>
                                 <ul>
@@ -131,7 +134,7 @@ function Experiences() {
                                 <div className="font-bold">Hydrophonic Smart Farm with ESP8266</div>
                                 <div className="italic md:mb-4">2023 | Tamadun</div>
                                 <div className="mb-10">
-                                    Hydrophonic Smart Farm refer to Hydrophonic Farm that utilize IoT conception to make particular electronic devices can communicate simultanously using internect conectivity. It also use some sensors to deliver necessary information to automate all Hydrophonic farming activities that formerly handled manually by the human power. 
+                                    Hydrophonic Smart Farm refer to Hydrophonic Farm that utilize IoT conception to make particular electronic devices can communicate simultanously using internect conectivity. It also use some sensors to deliver necessary information to automate most of Hydrophonic farming activities that formerly handled manually by the human power. 
                                 <br />
                                 <strong>Development stack:</strong><br/>
                                 <ul>

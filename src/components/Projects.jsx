@@ -1,18 +1,22 @@
-import 'react'
+import {useRef} from 'react'
+import { ViewPortObserver } from '../hooks/ViewPortObserver';
 
 function Projects() {
+  const ref1 = useRef();
+  const isVisible1 = ViewPortObserver(ref1);
+
   const projects = [
-    { id: 1, title: 'Project 1', description: 'Description of Project 1' },
-    { id: 2, title: 'Project 2', description: 'Description of Project 2' },
-    { id: 3, title: 'Project 3', description: 'Description of Project 3' },
+    { id: 1, title: 'Project 1', description: 'Description of Project 1',link:'', screenshot: ''},
+    { id: 2, title: 'Project 2', description: 'Description of Project 2',link:'', screenshot: '' },
+    { id: 3, title: 'Project 3', description: 'Description of Project 3',link:'', screenshot: '' },
   ]
 
   return (
-    <section id="projects" className="text-gray-700 body-font border-t border-gray-200">
+    <section ref={ref1} id="projects" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">MY PROJECT LISTS</h2>
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Projects in Github</h1>
+          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">SHOWCASES</h2>
+          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">My Projects List</h1>
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">

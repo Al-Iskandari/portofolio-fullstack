@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
+import { ViewPortObserver } from "../hooks/ViewPortObserver";
 import "../assets/SkillCircle.css";
 
 const skillLists = [
@@ -34,6 +35,8 @@ const mobile = [
 
 const Skills = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+    const ref1 = useRef();
+    const isVisible1 = ViewPortObserver(ref1);
     
     useEffect(() => {
         const handleResize = () => setIsMobile(window.innerWidth <= 600);
@@ -75,7 +78,7 @@ const Skills = () => {
         );
     }
   return (
-    <section id="skills" className="text-gray-700 body-font border-t border-gray-200">
+    <section ref={ref1} id="skills" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">MY ARMOR</h2>
