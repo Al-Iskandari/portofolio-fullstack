@@ -1,0 +1,18 @@
+:root{
+    --speed: 2s;
+    --distance: 10px;
+    --distance-negative: -10px;
+}
+
+.show-more {
+    animation: show-more var(--speed) ease-out;
+}
+
+@keyframes show-more {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}

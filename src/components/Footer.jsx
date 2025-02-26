@@ -3,14 +3,8 @@ import 'react'
 function Footer() {
   return (
     <footer>
-      <div className="container mx-auto py-10 bg-white shadow sm:shadow-none border-t-4 border-blue-500">
-        <ul className="flex justify-center flex-wrap text-sm text-slate-600">
-          <li className="mx-2"><a href className="inline-block hover:text-slate-900 hover:underline py-2 px-3">Home</a></li>
-          <li className="mx-2"><a href className="inline-block hover:text-slate-900 hover:underline py-2 px-3">About</a></li>
-          <li className="mx-2"><a href className="inline-block hover:text-slate-900 hover:underline py-2 px-3">Contact</a></li>
-        </ul>
-        <hr className="my-4" />
-        <p className="text-center text-sm text-slate-700">© 2022 Footer. All Rights Reserved</p>
+      <div className="container mx-auto py-5 bg-white shadow sm:shadow-none border-t-4 border-blue-500">
+        <p className="flex flex-row items-center justify-center text-center text-sm text-slate-700">©Copyright {new Date().getFullYear()} | <img className="w-10 h-10 text-white" width="100px" height="100px" src="./images/favicon.png" /></p>
       </div>
     </footer>
 

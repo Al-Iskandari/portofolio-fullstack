@@ -46,7 +46,7 @@ const Skills = () => {
 
     if (isMobile) {
         return (
-            <div className="list-container">
+            <div ref={ref1} className="list-container">
                 <button className="inline-flex items-center bg-cyan-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
                     Web Development
                 </button>

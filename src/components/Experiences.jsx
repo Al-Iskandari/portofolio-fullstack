@@ -6,7 +6,7 @@ function Experiences() {
     const isVisible1 = ViewPortObserver(ref1);
 
   return (
-    <section id="experiences" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={ref1} id="experiences" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">APPLIED SKILLS</h2>
@@ -134,7 +134,7 @@ function Experiences() {
                                 <div className="font-bold">Hydrophonic Smart Farm with ESP8266</div>
                                 <div className="italic md:mb-4">2023 | Tamadun</div>
                                 <div className="mb-10">
-                                    Hydrophonic Smart Farm refer to Hydrophonic Farm that utilize IoT conception to make particular electronic devices can communicate simultanously using internect conectivity. It also use some sensors to deliver necessary information to automate most of Hydrophonic farming activities that formerly handled manually by the human power. 
+                                    Hydrophonic Smart Farm refer to Hydrophonic Farm that utilises the concept of IoT to make particular farming tools able to communicate simultanously using internet conectivity. It also uses multiple sensors to provide necessary information to automate most of the Hydrophonic farming activities that were formerly handled manually by the human power. 
                                 <br />
                                 <strong>Development stack:</strong><br/>
                                 <ul>
