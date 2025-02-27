@@ -17,8 +17,8 @@ function App() {
         <Skills />
         <Education />
         <Experiences />
-        <Footer />
       </main>
+      <Footer />
     </div>
   )
 }
