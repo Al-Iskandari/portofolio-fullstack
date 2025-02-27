@@ -11,10 +11,10 @@ function Header() {
   }
 
   return (
-    <header className="w-full flex flex-col fixed bg-white pin-t pin-r pin-l fixed top-0 mb-[60px] z-30">
+    <header className="w-full flex flex-col fixed bg-white pin-t pin-r pin-l fixed top-0 left-0 right-0 mb-[60px] z-30">
       <nav className="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none border-t-4 border-blue-500">
         <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
-          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="https://klklkl.com" target="_blank">
+          <a className="flex title-font font-medium items-center text-gray-900 mb-0" href="https://klklkl.com" target="_blank">
             <img className="w-10 h-10 text-white" width="100px" height="100px" src="./images/favicon.png" />
             <span className="ml-3 text-xl">Joni Iskandar</span>
           </a>
