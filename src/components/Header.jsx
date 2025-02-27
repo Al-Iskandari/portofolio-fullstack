@@ -29,15 +29,15 @@ function Header() {
           <a className="text-dark hover:text-red text-md w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="#education">Education</a>
           <a className="text-dark hover:text-red text-md w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="#experiences">Experiences</a>
           <div className="flex flex-row">  
-            <button className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0 p-1">
+            <a href="https://github.com/Al-Iskandari" className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0 p-1">
               <img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/FFFFFF/github.png" alt="github"/>
-            </button>
-            <button className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0 p-1">
+            </a>
+            <a href="https://codepen.io/al-iskandari" className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0 p-1">
               <img width="64" height="64" src="https://img.icons8.com/?size=64&id=38382&format=png&color=FFFFFF" alt="codepen"/>
-            </button>
-            <button className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0 p-1">
+            </a>
+            <a href="https://linkedin.com/in/am-joni-iskandar" className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0 p-1">
               <img width="64" height="64" src="https://img.icons8.com/?size=64&id=8808&format=png&color=FFFFFF" alt="linkedin"/>
-            </button>
+            </a>
           </div>
         </div>
       </nav>
