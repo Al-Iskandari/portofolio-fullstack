@@ -41,11 +41,11 @@ function About() {
         </div>
         </p>
         <div className="flex justify-center">
-          <button className="inline-flex items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">My Resume
+          <a href="https://drive.google.com/file/d/1LdQ1VXEDGxGplBsnXaI2Dh3hgAwsHpSs/view?usp=sharing" target="_blank" className="inline-flex items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">My Resume
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
-          </button>
+          </a>
           <a href="mailto:iskandar.jn23@gmail.com" className="ml-4 inline-flex items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">Contact
             <img className="w-4 h-4 ml-1" width="32" height="32" src="https://img.icons8.com/?size=32&id=22028&format=png&color=FFFFFF" alt="email"/>
           </a>

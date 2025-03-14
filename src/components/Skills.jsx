@@ -46,35 +46,45 @@ const Skills = () => {
 
     if (isMobile) {
         return (
-            <div ref={ref1} className="list-container">
-                <button className="inline-flex items-center bg-cyan-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
-                    Web Development
-                </button>
-                {skillLists.map((skill, index) => (
-                    <div key={index} className="list-item">
-                        <img src={skill.img} alt={skill.name} />
-                        <span>{skill.name}</span>
-                    </div>
-                ))}
-                <button className="inline-flex items-center bg-sky-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
-                    Iot
-                </button>
-                {iot.map((skill, index) => (
-                    <div key={index} className="list-item">
-                        <img src={skill.img} alt={skill.name} />
-                        <span>{skill.name}</span>
-                    </div>
-                ))}
-                <button className="inline-flex items-center bg-emerald-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
-                    Mobile Dev
-                </button>
-                {mobile.map((skill, index) => (
-                    <div key={index} className="list-item">
-                        <img src={skill.img} alt={skill.name} />
-                        <span>{skill.name}</span>
-                    </div>
-                ))}
-            </div>
+        <section ref={ref1} id="skills" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+            <div className="container px-5 sm:py-24 py-8 mx-auto">
+              <div className="flex flex-col text-center w-full mb-20">
+                <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">MY ARMOR</h2>
+                <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Skills</h1>
+              </div>
+              <div className="flex flex-wrap flex-col md:flex-row md:justify-between gap-4 content-center">
+                <div ref={ref1} className="list-container">
+                    <button className="inline-flex items-center bg-cyan-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
+                        Web Development
+                    </button>
+                    {skillLists.map((skill, index) => (
+                        <div key={index} className="list-item">
+                            <img src={skill.img} alt={skill.name} />
+                            <span>{skill.name}</span>
+                        </div>
+                    ))}
+                    <button className="inline-flex items-center bg-sky-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
+                        Iot
+                    </button>
+                    {iot.map((skill, index) => (
+                        <div key={index} className="list-item">
+                            <img src={skill.img} alt={skill.name} />
+                            <span>{skill.name}</span>
+                        </div>
+                    ))}
+                    <button className="inline-flex items-center bg-emerald-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
+                        Mobile Dev
+                    </button>
+                    {mobile.map((skill, index) => (
+                        <div key={index} className="list-item">
+                            <img src={skill.img} alt={skill.name} />
+                            <span>{skill.name}</span>
+                        </div>
+                    ))}
+                </div>
+              </div>
+           </div>
+        </section>
         );
     }
   return (
@@ -84,7 +94,7 @@ const Skills = () => {
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">MY ARMOR</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Skills</h1>
         </div>
-        <div className="flex flex-wrap flex-col md:flex-row md:justify-between gap-4 content-center">
+        <div className="flex flex-wrap flex-col md:flex-row sm:justify-center xl:justify-between sm:gap-24 gap-4 content-center">
           <div className="circle-container mb-[60px] md:mb-[5px]" style={{width:"250px",height:"250px",marginLeft:"60px"}}>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">IOT</h1>
                 {iot.map((skill, index) => {
