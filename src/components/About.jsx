@@ -12,7 +12,7 @@ function About() {
         </h1>
         <p className="mb-8 leading-relaxed">
         I have a passion for building and developing knowledge into work that benefits others. I love creating efficient and
-        user-friendly solutions to complex problems. I have years of experience providing technology support in the field of technical assistance and development of web-based and Android education administration systems.
+        user-friendly solutions to complex problems. I have years of experiences providing technology support in the field of technical assistance and development of web-based and Android education administration systems.
         <div className="px-2 pt-2 pb-11 mb-3 flex flex-wrap rounded-lg bg-gray-200 dark:bg-gray-400">
           <span className="flex flex-wrap pl-4 pr-2 py-2 m-1 justify-between items-center text-sm font-medium rounded cursor-pointer bg-indigo-500 text-gray-200 hover:bg-indigo-600 hover:text-gray-100 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-gray-100">
           #AmbientComputingEnthusiast

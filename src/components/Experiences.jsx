@@ -36,7 +36,7 @@ function Experiences() {
                                 <li>Custom students phone call [Android Apps-RFID Card]</li>
                             </ul>
                             <br />
-                                <strong>Development stack:</strong><br/>
+                                <strong>Development stacks:</strong><br/>
                                 <ul className="list-disc ml-7">
                                     <li>PHP</li>
                                     <li>Javascript</li>
@@ -72,7 +72,7 @@ function Experiences() {
                                 <div className="mb-10">
                                 Karimun Berazam Foundation website is a profile website that is dynamically created to update the foundation&apos;s activities in the form of work agendas, photo galleries, articles and discussions.
                                     <br />
-                                <strong>Development stack:</strong><br/>
+                                <strong>Development stacks:</strong><br/>
                                 <ul>
                                     <li>Laravel</li>
                                     <li>Bootstrap</li>
@@ -92,7 +92,7 @@ function Experiences() {
                                 <div className="italic md:mb-4">2020 | Desa Pangke Barat Karimun</div>
                                 <div className="mb-10">Development of a village information system to display village potential in the agricultural, industrial and tourism sectors. Electronic village administration file download page. Coordinate mapping of village potential.
                                     <br />
-                                <strong>Development stack:</strong><br/>
+                                <strong>Development stacks:</strong><br/>
                                 <ul>
                                     <li>Laravel</li>
                                     <li>Bootstrap</li>
@@ -113,7 +113,7 @@ function Experiences() {
                                 <div className="italic md:mb-4">2025 | Tamadun</div>
                                 <div className="mb-10">Development of an innovative information system in presenting mosque information digitally with more flexible access control. Provides mosque cash update features, mosque agenda and activity information, lunar calendar and Islamic holiday notifications, more real time prayer schedules, more attractive and interactive UI / UX.
                                 <br />
-                                <strong>Development stack:</strong><br/>
+                                <strong>Development stacks:</strong><br/>
                                 <ul>
                                     <li>React + Vite</li>
                                     <li>Bootstrap</li>
@@ -136,7 +136,7 @@ function Experiences() {
                                 <div className="mb-10">
                                     Hydrophonic Smart Farm refer to Hydrophonic Farm that utilises the concept of IoT to make particular farming tools able to communicate simultanously using internet conectivity. It also uses multiple sensors to provide necessary information to automate most of the Hydrophonic farming activities that were formerly handled manually by the human power. 
                                 <br />
-                                <strong>Development stack:</strong><br/>
+                                <strong>Development stacks:</strong><br/>
                                 <ul>
                                     <li>NodeMCU ESP8266</li>
                                     <li>C++ Arduino</li>
