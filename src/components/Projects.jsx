@@ -40,7 +40,7 @@ function Projects() {
           {projects.slice(0,itemCount).map((project, index) => (
           <div key={index} className={`${itemCount} p-4 md:w-1/3 ${(index > (itemCount-4))?"show-more":""}`}>
             <div className="flex rounded-lg h-full bg-gray-200 p-8 flex-col">
-              <div className="lg:max-w-lg lg:w-full">
+              <div className="lg:max-w-lg lg:w-full h-[20rem] flex">
                 <img className="object-cover object-center rounded" alt="hero" src={`./images/${project.screenshot}`} />
               </div>
               <div className="flex items-center mb-3">
