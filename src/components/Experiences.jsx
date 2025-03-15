@@ -1,12 +1,13 @@
-import {useRef} from 'react';
+import 'react';
 import { ViewPortObserver } from '../hooks/ViewPortObserver';
+import PropTypes from 'prop-types'
 
-function Experiences() {
-    const ref1 = useRef();
-    const isVisible1 = ViewPortObserver(ref1);
+function Experiences(props) {
+    const {innerRef} = props;
+    const isVisible1 = ViewPortObserver(innerRef);
 
   return (
-    <section ref={ref1} id="experiences" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="experiences" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">APPLIED SKILLS</h2>
@@ -159,5 +160,9 @@ function Experiences() {
 
   )
 }
+
+Experiences.propTypes = {
+  innerRef: PropTypes.object,
+};
 
 export default Experiences;

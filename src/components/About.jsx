@@ -1,11 +1,13 @@
-import {useRef} from 'react'
+import 'react'
 import { ViewPortObserver } from '../hooks/ViewPortObserver';
+import PropTypes from 'prop-types'
 
-function About() {
-  const ref1 = useRef();
-  const isVisible1 = ViewPortObserver(ref1);
+function About(props) {
+  const {innerRef} = props;
+  const isVisible1 = ViewPortObserver(innerRef);
+  console.log(isVisible1);
   return (
-    <section ref={ref1} id="about" className={`text-gray-700 body-font mt-[60px] transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="about" className={`text-gray-700 body-font mt-[60px] transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
     <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About Me
@@ -57,6 +59,10 @@ function About() {
     </div>
   </section>
   )
+}
+
+About.propTypes = {
+  innerRef: PropTypes.object.isRequired
 }
 
 export default About

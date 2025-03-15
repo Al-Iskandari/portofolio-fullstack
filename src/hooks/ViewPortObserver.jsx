@@ -6,7 +6,9 @@ export function ViewPortObserver(ref) {
     useEffect(() => {
       const observer = new IntersectionObserver(([entry]) => {
           setIntersecting(entry.isIntersecting)
-      } 
+          
+      },{
+        rootMargin:"-60%"} 
       );
       
       observer.observe(ref.current);

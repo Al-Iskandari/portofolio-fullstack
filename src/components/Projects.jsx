@@ -1,12 +1,13 @@
-import {useRef, useState} from 'react'
+import {useState} from 'react'
 import '../assets/Animation.css';
 import { ViewPortObserver } from '../hooks/ViewPortObserver';
 import UsePrevious from '../hooks/UsePrevious';
+import PropTypes from 'prop-types'
 
-function Projects() {
+function Projects(props) {
   const [itemCount, setItemCount] = useState(3);
-  const ref2 = useRef();
-  const isVisible2 = ViewPortObserver(ref2);
+  const {innerRef} = props;
+  const isVisible2 = ViewPortObserver(innerRef);
   const prevItemCount = UsePrevious(itemCount);
 
   const projects = [
@@ -30,7 +31,7 @@ function Projects() {
   console.log(prevItemCount);
 
   return (
-    <section ref={ref2} id="projects" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="projects" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">SHOWCASE</h2>
@@ -40,7 +41,7 @@ function Projects() {
           {projects.slice(0,itemCount).map((project, index) => (
           <div key={index} className={`${itemCount} p-4 md:w-1/3 ${(index > (itemCount-4))?"show-more":""}`}>
             <div className="flex rounded-lg h-full bg-gray-200 p-8 flex-col">
-              <div className="lg:max-w-lg lg:w-full h-[20rem] flex">
+              <div className="lg:max-w-lg lg:w-full xl:h-[20rem] xl:flex">
                 <img className="object-cover object-center rounded" alt="hero" src={`./images/${project.screenshot}`} />
               </div>
               <div className="flex items-center mb-3">
@@ -68,6 +69,10 @@ function Projects() {
     </section>
 
   )
+}
+
+Projects.propTypes = {
+  innerRef: PropTypes.shape({current: PropTypes.any}),
 }
 
 export default Projects

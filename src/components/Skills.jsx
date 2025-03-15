@@ -1,6 +1,7 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { ViewPortObserver } from "../hooks/ViewPortObserver";
 import "../assets/SkillCircle.css";
+import PropTypes from 'prop-types'
 
 const skillLists = [
     { name: "HTML5", img: "https://cdn-icons-png.flaticon.com/64/888/888859.png" },
@@ -33,10 +34,10 @@ const mobile = [
   { name: "Android Studio", img: "https://static.cdnlogo.com/logos/a/36/android-studio.svg" }, // iOS
 ];
 
-const Skills = () => {
+const Skills = (props) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
-    const ref1 = useRef();
-    const isVisible1 = ViewPortObserver(ref1);
+    const {innerRef} = props;
+    const isVisible1 = ViewPortObserver(innerRef);
     
     useEffect(() => {
         const handleResize = () => setIsMobile(window.innerWidth <= 600);
@@ -46,14 +47,14 @@ const Skills = () => {
 
     if (isMobile) {
         return (
-        <section ref={ref1} id="skills" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+        <section ref={innerRef} id="skills" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <div className="container px-5 sm:py-24 py-8 mx-auto">
               <div className="flex flex-col text-center w-full mb-20">
                 <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">MY ARMOR</h2>
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Skills</h1>
               </div>
               <div className="flex flex-wrap flex-col md:flex-row md:justify-between gap-4 content-center">
-                <div ref={ref1} className="list-container">
+                <div ref={innerRef} className="list-container">
                     <button className="inline-flex items-center bg-cyan-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
                         Web Development
                     </button>
@@ -88,7 +89,7 @@ const Skills = () => {
         );
     }
   return (
-    <section ref={ref1} id="skills" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="skills" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">MY ARMOR</h2>
@@ -157,5 +158,10 @@ const Skills = () => {
     </section>
   )
 }
+
+Skills.propTypes = {
+  innerRef: PropTypes.shape({current: PropTypes.any}),
+}
+
 
 export default Skills
