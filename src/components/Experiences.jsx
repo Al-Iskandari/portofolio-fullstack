@@ -26,7 +26,7 @@ function Experiences(props) {
                     </div>
                     <div className="ml-10">
                         <div className="font-bold">Full-Stack Developer</div>
-                        <div className="italic md:mb-4">2017-2024 | Private School - Pondok Pesantren Darul Hijrah Karimun</div>
+                        <div className="italic md:mb-4"><span className="bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black">2017-2024</span> Private School - Pondok Pesantren Darul Hijrah Karimun</div>
                         <div className="mb-10">
                             Developed several web and android applications to serve all education processes and its support programs.
                             <ul className="list-disc ml-6">
@@ -57,7 +57,7 @@ function Experiences(props) {
                     </div>
                     <div className="ml-10">
                         <div className="font-bold">Freelance</div>
-                        <div className="italic md:mb-4">anytime | anywhere</div>
+                        <div className="italic md:mb-4"><span className="bg-[#3e9e9e] text-white rounded p-1 text-sm shadow-sm shadow-black">anytime</span>  anywhere</div>
                         <div className="mb-10">Utilizing leisure time to gain oppurtunity by practicing knowledge into valuable work.</div>
                         <div className="flex items-center relative">
                             <div className="border-dotted border-r-[4px] border-[#3e9e9e] absolute h-full left-1 top-2 z-10">
@@ -71,7 +71,7 @@ function Experiences(props) {
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Karimun Berazam Foundation website</div>
-                                <div className="italic md:mb-4">2017 | Yayasan Karimun Berazam</div>
+                                <div className="italic md:mb-4"><span className="bg-[#3e9e9e] text-white rounded p-1 text-sm shadow-sm shadow-black">2017</span> Yayasan Karimun Berazam</div>
                                 <div className="mb-10">
                                 Karimun Berazam Foundation website is a profile website that is dynamically created to update the foundation&apos;s activities in the form of work agendas, photo galleries, articles and discussions.
                                     <br />
@@ -95,7 +95,7 @@ function Experiences(props) {
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Village Information Website</div>
-                                <div className="italic md:mb-4">2020 | Desa Pangke Barat Karimun</div>
+                                <div className="italic md:mb-4"><span className="bg-[#d15a5a] text-white rounded p-1 text-sm shadow-sm shadow-black">2020</span> Desa Pangke Barat Karimun</div>
                                 <div className="mb-10">Development of a village information system to display village potential in the agricultural, industrial and tourism sectors. Electronic village administration file download page. Coordinate mapping of village potential.
                                     <br />
                                 <strong>Development stacks:</strong><br/>
@@ -117,7 +117,7 @@ function Experiences(props) {
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Digital Mosque Information and Prayer Schedule System</div>
-                                <div className="italic md:mb-4">2025 | Tamadun</div>
+                                <div className="italic md:mb-4"><span className="bg-[#e2d488] text-dark rounded p-1 text-sm shadow-sm shadow-black">2025</span> Tamadun</div>
                                 <div className="mb-10">Development of an innovative information system in presenting mosque information digitally with more flexible access control. Provides mosque cash update features, mosque agenda and activity information, lunar calendar and Islamic holiday notifications, more real time prayer schedules, more attractive and interactive UI / UX.
                                 <br />
                                 <strong>Development stacks:</strong><br/>
@@ -140,7 +140,7 @@ function Experiences(props) {
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Hydrophonic Smart Farm with ESP8266</div>
-                                <div className="italic md:mb-4">2023 | Tamadun</div>
+                                <div className="italic md:mb-4"><span className="bg-[#3e9e9e] text-white rounded p-1 text-sm shadow-sm shadow-black">2023</span> Tamadun</div>
                                 <div className="mb-10">
                                     Hydrophonic Smart Farm refer to Hydrophonic Farm that utilises the concept of IoT to make particular farming tools able to communicate simultanously using internet conectivity. It also uses multiple sensors to provide necessary information to automate most of the Hydrophonic farming activities that were formerly handled manually by the human power. 
                                 <br />

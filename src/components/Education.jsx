@@ -45,7 +45,7 @@ function Education(props) {
                     </div>
                     <div className="ml-10">
                         <div className="font-bold">Online Course</div>
-                        <div className="italic md:mb-4">Dicoding</div>
+                        <div className="italic md:mb-4"><span className="bg-[#3e9e9e] text-white rounded p-1 text-sm shadow-sm shadow-black">Dicoding</span></div>
                         <div className="mb-10">Among the journeys and efforts to keep inline with current technology stacks, clean code paradigm, clean architecture, evolving AI.</div>
                         <div className="flex items-center relative">
                             <div className="border-dotted border-r-[4px] border-[#3e9e9e] absolute h-full left-1 top-2 z-10">

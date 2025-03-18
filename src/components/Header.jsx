@@ -16,7 +16,7 @@ function Header(props) {
 
   return (
     <header className="w-full flex flex-col fixed bg-white pin-t pin-r pin-l fixed top-0 left-0 right-0 mb-[60px] z-30">
-      <nav className="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-[#5B456E] shadow border-t-4 border-[#E2D488] backdrop-blur-sm">
+      <nav className="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-[#5B456E] shadow border-t-4 border-[#d15a5a] backdrop-blur-sm">
         <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-0" href="/">
             <img className="w-10 h-10 text-white invert hue-rotate-[25deg]" width="100px" height="100px" src="./images/favicon.png" />
