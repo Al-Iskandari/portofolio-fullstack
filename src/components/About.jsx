@@ -7,7 +7,7 @@ function About(props) {
   const isVisible1 = ViewPortObserver(innerRef);
   console.log(isVisible1);
   return (
-    <section ref={innerRef} id="about" className={`px-8 text-gray-700 body-font h-screen mt-[50px] transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="about" className={`px-8 text-gray-700 body-font mt-[50px] transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
     <div className="relative container mx-auto flex px-5 py-5 md:flex-row flex-col items-center z-10">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-[#3e3e3e]">About <span className="text-[#5B456E] underline">Me</span>

@@ -29,7 +29,20 @@ function Education(props) {
                     <div className="ml-10">
                         <div className="font-bold">Bachelor of Informatic Enginering</div>
                         <div className="italic md:mb-4"><span className="bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black">2011-2016</span> Islamic State University of Sultan Syarif Kasim Riau</div>
-                        <div className="mb-10">Among the journeys and efforts to keep inline with current technology stacks, clean code paradigm, clean architecture, evolving AI.</div>
+                        <div className="mb-10">
+                            <span className="bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black font-medium">Research Assistant</span> | Department of Informatic Engineering | 2015-2016
+                                <ul className="ml-6 list-disc">
+                                    <li className="mb-2 mt-2">Supported Vice Dean Dr.Okfalisa in research on the data classfication for Email spam detection, developing skills in data preprocessing, data processing, algorithm implementation and analysis, data training and writing IEEE standard journal.</li>
+                                    <li>Completed and published a paper/International Journal in IEEE entitled <i>The application of Centroid linkage hierarchical method and Hill climbing method in comments clustering online discussion forum</i> and has been cited several times by researchers globally. 
+                                        <a href="https://ieeexplore.ieee.org/document/8089247" className="flex items-center w-fit mt-4 break-all bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black">
+                                            visit
+                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                                                <path d="M5 12h14M12 5l7 7-7 7" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
                     </div>
                 </div>
                 <div className="flex items-center relative">
