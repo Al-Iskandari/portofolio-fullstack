@@ -43,7 +43,7 @@ function Projects(props) {
             <div className="flex relative rounded-lg h-full bg-[#5B456E] p-8 flex-col overflow-clip">
               <span className="shadow-xl -left-16 -top-16 absolute w-32 h-32 bg-[#3e9e9e] rounded-full z-10"></span>
               <div className="relative lg:max-w-lg lg:w-full xl:h-[20rem] xl:flex">
-                <img className="w-80 h-80 md:w-60 md:h-60 xl:w-80 xl:h-80 bg-[#5B456E] rounded-lg object-cover object-center grayscale hover:grayscale-0" alt="hero" src={`./images/${project.screenshot}`} />
+                <img className="xs:w-[13rem] x:h-[13rem] md:w-60 md:h-60 xl:w-80 xl:h-80 bg-[#5B456E] rounded-lg object-cover object-center grayscale hover:grayscale-0" alt="hero" src={`./images/${project.screenshot}`} />
               </div>
               <div className="flex items-center mb-3">
                 <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-[#e2d488] text-[#e2d488] flex-shrink-0">
