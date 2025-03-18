@@ -56,7 +56,7 @@ const Skills = (props) => {
               </div>
               <div className="flex flex-wrap flex-col md:flex-row md:justify-between gap-4 content-center">
                 <div ref={innerRef} className="list-container">
-                    <button className="inline-flex items-center bg-cyan-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
+                    <button className="inline-flex items-center bg-[#3e9e9e] border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
                         Web Development
                     </button>
                     {skillLists.map((skill, index) => (
@@ -65,7 +65,7 @@ const Skills = (props) => {
                             <span>{skill.name}</span>
                         </div>
                     ))}
-                    <button className="inline-flex items-center bg-sky-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
+                    <button className="inline-flex items-center bg-[#d15a5a] border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
                         Iot
                     </button>
                     {iot.map((skill, index) => (
@@ -74,7 +74,7 @@ const Skills = (props) => {
                             <span>{skill.name}</span>
                         </div>
                     ))}
-                    <button className="inline-flex items-center bg-emerald-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
+                    <button className="inline-flex items-center bg-[#e2d488] border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0">
                         Mobile Dev
                     </button>
                     {mobile.map((skill, index) => (
@@ -100,11 +100,11 @@ const Skills = (props) => {
           <h2 className="text-xs text-[#5B456E] tracking-widest font-medium title-font mb-1">MY ARMOR</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Skills</h1>
         </div>
-        <div className="flex flex-wrap flex-col md:flex-row sm:justify-center xl:justify-center sm:gap-[8rem] gap-4 content-center">
+        <div className="flex flex-wrap flex-col md:flex-row sm:justify-center xl:justify-center gap-[12rem] lg:gap-[8rem] content-center">
           <div className="circle-container mb-[60px] md:mb-[5px]" style={{width:"250px",height:"250px",marginLeft:"60px"}}>
           <span className="circle-container-cap"></span>
           <h1 className="sm:text-3xl text-2xl font-medium title-font z-10 text-gray-700">IOT</h1>
-                {iot.map((skill, index) => {
+                {iot.map((skill, index) => { 
                     const angle = ((index+2) / iot.length) * (1.5 * Math.PI);
                     const x = 98 + 165 * Math.cos(angle);
                     const y = 103 + 180 * Math.sin(angle);

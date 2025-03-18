@@ -33,7 +33,7 @@ function Projects(props) {
   return (
     <section ref={innerRef} id="projects" className={`px-8 text-gray-700 body-font transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
+        <div className="flex flex-col text-center w-full mb-10">
           <h2 className="text-xs text-[#5B456E] tracking-widest font-medium title-font mb-1">SHOWCASE</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">My Projects List</h1>
         </div>
