@@ -1,27 +1,57 @@
 .circle-container {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    border: 2px dashed #333;
+    border: 20px solid #5B456E;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.circle-container .circle-container-cap {
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 3px 1px 8px 0px #00000094;
 }
 .skill {
     position: absolute;
     transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
-    background: #3e3e3e;
+    justify-content: center;
+    background: #ffffff;
     padding: 5px;
-    border-radius: 7px;
-    width: min-content;
-    color: white;
+    border:solid 9px #3E9E9E;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #3f3c42;
+}
+.skill span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 3px 1px 8px 0px #00000094;
+    z-index: -1;
+}
+.skill .circleOuter {
+    width: 10px;
+    height: 10px;
+    border: solid 2px #dbdb81;
+    background: #63376f;
+    top: 66px;
+    left: -15px;
+    box-shadow: none;
 }
 .skill img {
     width: 40px;
-    height: 40px;
+    height: 23px;
     margin:0px 10px;
 }
 .skill.left {

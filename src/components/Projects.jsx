@@ -31,10 +31,10 @@ function Projects(props) {
   console.log(prevItemCount);
 
   return (
-    <section ref={innerRef} id="projects" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="projects" className={`px-8 text-gray-700 body-font transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">SHOWCASE</h2>
+          <h2 className="text-xs text-[#5B456E] tracking-widest font-medium title-font mb-1">SHOWCASE</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">My Projects List</h1>
         </div>
         <div className={`flex flex-wrap -m-4 `}>
@@ -45,14 +45,14 @@ function Projects(props) {
                 <img className="object-cover object-center rounded" alt="hero" src={`./images/${project.screenshot}`} />
               </div>
               <div className="flex items-center mb-3">
-                <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-[#5B456E] text-[#5B456E] flex-shrink-0">
                   <img width="64" height="64" src={project.sourceLogo} alt="source image"/>
                 </div>
                 <h2 className="text-gray-900 text-lg title-font font-medium">{project.title}</h2>
               </div>
               <div className="flex-grow">
                 <p className="leading-relaxed text-base">{project.description}</p>
-                <a href={project.link} className="mt-3 text-indigo-500 inline-flex items-center">Learn More
+                <a href={project.link} className="mt-3 text-[#5B456E] inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
@@ -63,7 +63,7 @@ function Projects(props) {
           )) }
         </div>
         <div className="flex justify-center mt-6">
-            <button className="items-center bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base text-white mt-4 md:mt-0" onClick={showItems}>{(itemCount < totalCount)?"Show More":"Show Less"}</button>
+            <button className="items-center bg-[#e2d488] border-0 py-1 px-3 focus:outline-none hover:bg-[#3e9e9e] rounded text-base text-[#5B456E] hover:text-white mt-4 md:mt-0" onClick={showItems}>{(itemCount < totalCount)?"Show More":"Show Less"}</button>
         </div>
       </div>
     </section>

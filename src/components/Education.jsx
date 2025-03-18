@@ -7,25 +7,28 @@ function Education(props) {
     const isVisible1 = ViewPortObserver(innerRef);
 
   return (
-    <section ref={innerRef} id="education" className={`text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+    <section ref={innerRef} id="education" className={`px-8 text-gray-700 body-font border-t border-gray-200 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">LEARNING PROCESS</h2>
+          <h2 className="text-xs text-[#5B456E] tracking-widest font-medium title-font mb-1">LEARNING PROCESS</h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Education</h1>
         </div>
         <div className="flex flex-wrap -m-4 justify-center">
           <div className="p-4 md:w-2/3">
             <div className="relative mt-5 text-left">
                 <div className="flex items-center relative">
-                    <div className="border-r-2 border-gray-800 absolute h-full left-3 top-2 z-10">
+                    <div className="border-dotted border-r-[4px] border-[#5B456E] absolute h-full left-3 top-2 z-10">
                         <i className="fas fa-circle -top-1 -ml-2 absolute" />
                     </div>
-                    <div className="w-6 h-6 absolute top-1 mt-0 ml-[1px] border-4 border-gray-800 bg-blue-500 rounded-full text-center z-20">
-                        <i className="fas fa-check-circle text-white"></i>
+                    <div className="flex w-8 h-8 absolute top-1 mt-0 -left-[2px] bg-[#5B456E] rounded-full text-center z-20">
+                        <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                        <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3.78552 9.5 12.7855 14l9-4.5-9-4.5-8.99998 4.5Zm0 0V17m3-6v6.2222c0 .3483 2 1.7778 5.99998 1.7778 4 0 6-1.3738 6-1.7778V11"/>
+                        </svg>
                     </div>
                     <div className="ml-10">
                         <div className="font-bold">Bachelor of Informatic Enginering</div>
-                        <div className="italic md:mb-4">2011-2016 | Islamic State University of Sultan Syarif Kasim Riau</div>
+                        <div className="italic md:mb-4"><span className="bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black">2011-2016</span> Islamic State University of Sultan Syarif Kasim Riau</div>
                         <div className="mb-10">Among the journeys and efforts to keep inline with current technology stacks, clean code paradigm, clean architecture, evolving AI.</div>
                     </div>
                 </div>
@@ -33,19 +36,26 @@ function Education(props) {
                     <div className="border-r-2 border-gray-800 absolute left-3 top-2 z-10">
                         <i className="fas fa-circle -top-1 -ml-2 absolute" />
                     </div>
-                    <div className="w-6 h-6 absolute top-1 mt-0 ml-[1px] border-4 border-gray-800 rounded-full bg-sky-500 z-20 text-center">
-                        <i className="fas fa-check-circle text-white"></i>
+                    <div className="w-8 h-8 absolute top-1 mt-0 -left-[2px] bg-[#3e9e9e] rounded-full text-center z-20">
+                        <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                        <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
+                        </svg>
+
                     </div>
                     <div className="ml-10">
                         <div className="font-bold">Online Course</div>
                         <div className="italic md:mb-4">Dicoding</div>
                         <div className="mb-10">Among the journeys and efforts to keep inline with current technology stacks, clean code paradigm, clean architecture, evolving AI.</div>
                         <div className="flex items-center relative">
-                            <div className="border-r-2 border-gray-800 absolute h-full left-1 top-2 z-10">
+                            <div className="border-dotted border-r-[4px] border-[#3e9e9e] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-6 h-6 absolute top-1 mt-0 -ml-[7px] border-4 border-gray-800 rounded-full bg-sky-400 z-20  text-center">
-                                <i className="fas fa-check-circle text-white"></i>
+                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#3e9e9e] rounded-full text-center z-20">
+                                <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                                <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
+                                </svg>
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Back-End Pemula dengan JavaScript</div>
@@ -54,11 +64,14 @@ function Education(props) {
                             </div>
                         </div>
                         <div className="flex items-center relative">
-                            <div className="border-r-2 border-gray-800 absolute h-full left-1 top-2 z-10">
+                            <div className="border-dotted border-r-[4px] border-[#d15a5a] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-6 h-6 absolute top-1 mt-0 -ml-[7px] border-4 border-gray-800 rounded-full bg-sky-300 z-20  text-center">
-                                <i className="fas fa-check-circle text-white"></i>
+                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#d15a5a] rounded-full text-center z-20">
+                                <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                                <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
+                                </svg>
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Dasar AI</div>
@@ -67,11 +80,14 @@ function Education(props) {
                             </div>
                         </div>
                         <div className="flex items-center relative">
-                            <div className="border-r-2 border-gray-800 absolute h-full left-1 top-2 z-10">
+                            <div className="border-dotted border-r-[4px] border-[#e2d488] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-6 h-6 absolute top-1 mt-0 -ml-[7px] border-4 border-gray-800 rounded-full bg-sky-200 z-20  text-center">
-                                <i className="fas fa-check-circle text-white"></i>
+                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#e2d488] rounded-full text-center z-20">
+                                <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                                <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
+                                </svg>
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Dasar Pemrograman JavaScript</div>

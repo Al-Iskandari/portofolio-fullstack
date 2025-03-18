@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Header activeMenu={activeMenu}/>
-      <main className="container mx-auto px-4 py-8">
+      <main className="w-full">
         <About innerRef={refsById['about']}/>
         <Projects innerRef={refsById['projects']}/>
         <Skills innerRef={refsById['skills']}/>
