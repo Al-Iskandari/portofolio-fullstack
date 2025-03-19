@@ -27,7 +27,7 @@ function Education(props) {
                         </svg>
                     </div>
                     <div className="ml-10">
-                        <div className="font-bold">Bachelor of Informatic Enginering</div>
+                        <div className="font-bold">Bachelor of Informatic Engineering</div>
                         <div className="italic md:mb-4"><span className="bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black">2011-2016</span> Islamic State University of Sultan Syarif Kasim Riau</div>
                         <div className="mb-10">
                             <span className="bg-[#5B456E] text-white rounded p-1 text-sm shadow-sm shadow-black font-medium">Research Assistant</span> | Department of Informatic Engineering | 2015-2016
