@@ -121,7 +121,7 @@ const Skills = (props) => {
                         >
                             <span className="innerCircle"></span>
                             <span className={`circleOuter ${isOuterLeft ? "right" : "left"}`} style={{left: `${xouter}px`, top: `${youter}px`,borderColor:`#212424`, background:`${borderColor[index%borderColor.length]}`}}></span>
-                            <Tooltip message={skill.name}>
+                            <Tooltip message={skill.name} bgColor={`bg-[${borderColor[index%borderColor.length]}]`}>
                                 <img src={skill.img} alt={skill.name} />
                             </Tooltip>
                         </div>
@@ -147,7 +147,7 @@ const Skills = (props) => {
                         >
                             <span className="innerCircle"></span>
                             <span className={`circleOuter ${isOuterLeft ? "right" : "left"}`} style={{left: `${xouter}px`, top: `${youter}px`,borderColor:`#212424`, background:`${borderColor[index%borderColor.length]}`}}></span>
-                            <Tooltip message={skill.name}>
+                            <Tooltip message={skill.name} bgColor={`bg-[${borderColor[index%borderColor.length]}]`}>
                                 <img src={skill.img} alt={skill.name} />
                             </Tooltip>
                         </div>
@@ -173,7 +173,7 @@ const Skills = (props) => {
                         >
                             <span className="innerCircle" style={{transform:"rotate(169deg)"}}></span>
                             <span className={`circleOuter ${isOuterLeft ? "right" : "left"}`} style={{left: `${xouter}px`, top: `${youter}px`,borderColor:`#212424`, background:`${borderColor[index%borderColor.length]}`}}></span>
-                            <Tooltip message={skill.name} rotate={"rotate-[169deg]"}>
+                            <Tooltip message={skill.name} rotate={"rotate-[169deg]"} bgColor={`bg-[${borderColor[index%borderColor.length]}]`}>
                                 <img src={skill.img} alt={skill.name} style={{transform:"rotate(169deg)"}}/>
                             </Tooltip>
                         </div>
