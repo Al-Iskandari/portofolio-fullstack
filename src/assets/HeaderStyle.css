@@ -40,7 +40,7 @@
   position: absolute;
   width: 24px;
   height: 2px;
-  background: #000;
+  background: #ffffff;
   transform: rotate(0);
   transition: all 0.5s;
 }

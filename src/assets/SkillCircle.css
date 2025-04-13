@@ -31,7 +31,7 @@
     height: 60px;
     color: #3f3c42;
 }
-.skill span {
+.skill .innerCircle {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -41,13 +41,16 @@
     z-index: -1;
 }
 .skill .circleOuter {
+    position: absolute;
     width: 10px;
     height: 10px;
     border: solid 2px #dbdb81;
+    border-radius: 50%;
     background: #63376f;
     top: 66px;
     left: -15px;
     box-shadow: none;
+    z-index: -1;
 }
 .skill img {
     width: 40px;

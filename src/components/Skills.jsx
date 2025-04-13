@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ViewPortObserver } from "../hooks/ViewPortObserver";
 import "../assets/SkillCircle.css";
 import PropTypes from 'prop-types'
+import Tooltip from "./Tooltip";
 
 const skillLists = [
     { name: "HTML5", img: "https://cdn-icons-png.flaticon.com/64/888/888859.png" },
@@ -117,12 +118,12 @@ const Skills = (props) => {
                             key={index}
                             className={`skill ${isLeft ? "right" : "left"}`}
                             style={{ left: `${x}px`, top: `${y}px`,borderColor:`${borderColor[index%borderColor.length]}`}}
-                            title={skill.name}
-                            
                         >
-                            <span></span>
+                            <span className="innerCircle"></span>
                             <span className={`circleOuter ${isOuterLeft ? "right" : "left"}`} style={{left: `${xouter}px`, top: `${youter}px`,borderColor:`#212424`, background:`${borderColor[index%borderColor.length]}`}}></span>
-                            <img src={skill.img} alt={skill.name} />
+                            <Tooltip message={skill.name}>
+                                <img src={skill.img} alt={skill.name} />
+                            </Tooltip>
                         </div>
                     );
                 })}
@@ -142,13 +143,13 @@ const Skills = (props) => {
                         <div
                             key={index}
                             className={`skill ${isLeft ? "right" : "left"}`}
-                            style={{ left: `${x}px`, top: `${y}px`,borderColor:`${borderColor[index%borderColor.length]}`}}
-                            title={skill.name}
-                            
+                            style={{ left: `${x}px`, top: `${y}px`,borderColor:`${borderColor[index%borderColor.length]}`}}                        
                         >
-                            <span></span>
+                            <span className="innerCircle"></span>
                             <span className={`circleOuter ${isOuterLeft ? "right" : "left"}`} style={{left: `${xouter}px`, top: `${youter}px`,borderColor:`#212424`, background:`${borderColor[index%borderColor.length]}`}}></span>
-                            <img src={skill.img} alt={skill.name} />
+                            <Tooltip message={skill.name}>
+                                <img src={skill.img} alt={skill.name} />
+                            </Tooltip>
                         </div>
                     );
                 })}
@@ -169,12 +170,12 @@ const Skills = (props) => {
                             key={index}
                             className={`skill ${isLeft ? "left" : "right"}`}
                             style={{ left: `${x}px`, top: `${y}px`,borderColor:`${borderColor[index%borderColor.length]}`}}
-                            title={skill.name}
-                            
                         >
-                            <span style={{transform:"rotate(169deg)"}}></span>
+                            <span className="innerCircle" style={{transform:"rotate(169deg)"}}></span>
                             <span className={`circleOuter ${isOuterLeft ? "right" : "left"}`} style={{left: `${xouter}px`, top: `${youter}px`,borderColor:`#212424`, background:`${borderColor[index%borderColor.length]}`}}></span>
-                            <img src={skill.img} alt={skill.name} style={{transform:"rotate(169deg)"}}/>
+                            <Tooltip message={skill.name} rotate={"rotate-[169deg]"}>
+                                <img src={skill.img} alt={skill.name} style={{transform:"rotate(169deg)"}}/>
+                            </Tooltip>
                         </div>
                     );
                 })}
