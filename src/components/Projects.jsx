@@ -19,6 +19,14 @@ function Projects(props) {
     { id: 6, title: 'Personal Portofolio', description: 'This project is a modern personal portfolio, built with React, using Vite as the build tool and styled with Tailwind CSS. The structure suggests a responsive design with animations and a focus on presenting skills, experiences and projects.',link:'https://github.com/Al-Iskandari/portofolio-fullstack', screenshot: 'portofolio.png',sourceLogo:'https://img.icons8.com/glyph-neue/64/FFFFFF/github.png' },
     { id: 7, title: 'Circle timer with CSS Animation', description: 'Simple circle timer using css animation keyframe to run circle element based on specified duration and roll all circle element along roll specified time.',link:'https://codepen.io/al-iskandari/pen/jENNXgq', screenshot: 'circle_timer_css_animation.png',sourceLogo:'https://img.icons8.com/?size=64&id=38382&format=png&color=FFFFFF' },
   ];
+
+  const truncateDescription = (description, maxLength) => {
+    if (description.length > maxLength) {
+      return description.substring(0, maxLength) + "...";
+    }
+    return description;
+  };
+
   const totalCount = projects.length;
 
   function showItems (){
@@ -53,7 +61,7 @@ function Projects(props) {
                 <h2 className="text-white text-lg title-font font-medium">{project.title}</h2>
               </div>
               <div className="flex-grow">
-                <p className="leading-relaxed relative text-base text-white z-10">{project.description}</p>
+                <p className="leading-relaxed relative text-base text-white z-10">{truncateDescription(project.description, 150)}</p>
                 <a href={project.link} className="mt-3 text-white inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7" />
