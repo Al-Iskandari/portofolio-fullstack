@@ -8,7 +8,7 @@ export function ViewPortObserver(ref) {
         setIntersecting(entry.isIntersecting)
 
     },{
-      rootMargin:"-40%"} //Adjust this value
+      rootMargin:"-60%"} //Adjust this value
     );
 
     observer.observe(ref.current);

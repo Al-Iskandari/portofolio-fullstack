@@ -31,9 +31,8 @@ function App() {
 
   menus.map((menu)=>{
     const ref = refsById[menu];
-    if (ref && ref.current && ViewPortObserver(ref)){
-      //(activeMenu != menu) && debouncedSetActiveMenu(menu);
-      setActiveMenu(menu);
+    if(ViewPortObserver(ref)){
+      (activeMenu != menu) && debouncedSetActiveMenu(menu);
     }
   });
 
