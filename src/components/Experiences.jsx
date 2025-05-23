@@ -116,14 +116,12 @@ function Experiences(props) {
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 z-100 absolute" style={{positionArea: "center"}} viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
                             </div>
                             <div className="ml-10">
-                                <div className="font-bold">Digital Mosque Information and Prayer Schedule System</div>
+                                <div className="font-bold">(Backend)Digital Mosque Information and Prayer Schedule System</div>
                                 <div className="italic md:mb-4"><span className="bg-[#e2d488] text-dark rounded p-1 text-sm shadow-sm shadow-black">2025</span> Tamadun</div>
                                 <div className="mb-10">Development of an innovative information system in presenting mosque information digitally with more flexible access control. Provides mosque cash update features, mosque agenda and activity information, lunar calendar and Islamic holiday notifications, more real time prayer schedules, more attractive and interactive UI / UX.
                                 <br />
                                 <strong>Development stacks:</strong><br/>
                                 <ul>
-                                    <li>React + Vite</li>
-                                    <li>Bootstrap</li>
                                     <li>Express + Typescript</li>
                                     <li>Mysql + Sequalize</li>
                                 </ul>

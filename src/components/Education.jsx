@@ -108,6 +108,38 @@ function Education(props) {
                                 <div className="mb-10 break-all">https://www.dicoding.com/certificates/QLZ9V78OMX5D</div>
                             </div>
                         </div>
+                        <div className="flex items-center relative">
+                            <div className="border-dotted border-r-[4px] border-[#e2d488] absolute h-full left-1 top-2 z-10">
+                                <i className="fas fa-circle -top-1 -ml-2 absolute" />
+                            </div>
+                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#e2d488] rounded-full text-center z-20">
+                                <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                                <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
+                                </svg>
+                            </div>
+                            <div className="ml-10">
+                                <div className="font-bold">Memulai Pemrograman dengan Python</div>
+                                <div className="italic md:mb-4">April 2025 - April 2028</div>
+                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/MEPJQD1KWX3V</div>
+                            </div>
+                        </div>
+                        <div className="flex items-center relative">
+                            <div className="border-dotted border-r-[4px] border-[#e2d488] absolute h-full left-1 top-2 z-10">
+                                <i className="fas fa-circle -top-1 -ml-2 absolute" />
+                            </div>
+                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#e2d488] rounded-full text-center z-20">
+                                <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
+                                <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
+                                </svg>
+                            </div>
+                            <div className="ml-10">
+                                <div className="font-bold">Belajar Dasar Cloud dan Gen AI di AWS</div>
+                                <div className="italic md:mb-4">May 2025 - May 2028</div>
+                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/NVP752GOVXR0</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
