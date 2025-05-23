@@ -40,7 +40,7 @@ function About(props) {
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </a>
-          <a href="mailto:iskandar.jn23@gmail.com" className="ml-4 inline-flex items-center bg-[#E2D488] border-0 py-1 px-3 focus:outline-none hover:bg-[#3e9e9e] hover:text-white rounded text-base text-gray-700 mt-4 md:mt-0">Contact
+          <a href="mailto:iskandar.jn23@gmail.com" className="ml-4 inline-flex items-center bg-[#E2D488] border-0 py-1 px-3 focus:outline-none hover:bg-[#3e9e9e] hover:text-white rounded text-base text-gray-700 mt-4 md:mt-0">Reach Me
           <svg fill="none" stroke="currentColor" className="w-4 h-4 ml-1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 3.5l.5-.5h13l.5.5v9l-.5.5h-13l-.5-.5v-9zm1 1.035V12h12V4.536L8.31 8.9H7.7L2 4.535zM13.03 4H2.97L8 7.869 13.03 4z"/>
           </svg>

@@ -73,7 +73,14 @@ function Education(props) {
                             <div className="ml-10">
                                 <div className="font-bold">Back-End Pemula dengan JavaScript</div>
                                 <div className="italic md:mb-4">Feb 2025 - Feb 2028</div>
-                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/NVP75Q65RXR0</div>
+                                <div className="mb-10">
+                                    <a href="https://www.dicoding.com/certificates/NVP75Q65RXR0" 
+                                       className="bg-[#3e9e9e] hover:bg-[#5B456E] text-white font-bold py-2 px-4 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 block text-center"
+                                       target="_blank" 
+                                       rel="noopener noreferrer">
+                                        View Certificate
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="flex items-center relative">
@@ -89,7 +96,14 @@ function Education(props) {
                             <div className="ml-10">
                                 <div className="font-bold">Dasar AI</div>
                                 <div className="italic md:mb-4">Des 2024 - Des 2027</div>
-                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/JLX14QMJJX72</div>
+                                <div className="mb-10">
+                                    <a href="https://www.dicoding.com/certificates/JLX14QMJJX72" 
+                                       className="bg-[#3e9e9e] hover:bg-[#5B456E] text-white font-bold py-2 px-4 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 block text-center"
+                                       target="_blank" 
+                                       rel="noopener noreferrer">
+                                        View Certificate
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="flex items-center relative">
@@ -105,7 +119,14 @@ function Education(props) {
                             <div className="ml-10">
                                 <div className="font-bold">Dasar Pemrograman JavaScript</div>
                                 <div className="italic md:mb-4">Okt 2024 - Okt 2027</div>
-                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/QLZ9V78OMX5D</div>
+                                <div className="mb-10">
+                                    <a href="https://www.dicoding.com/certificates/QLZ9V78OMX5D" 
+                                       className="bg-[#3e9e9e] hover:bg-[#5B456E] text-white font-bold py-2 px-4 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 block text-center"
+                                       target="_blank" 
+                                       rel="noopener noreferrer">
+                                        View Certificate
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="flex items-center relative">
@@ -120,8 +141,15 @@ function Education(props) {
                             </div>
                             <div className="ml-10">
                                 <div className="font-bold">Memulai Pemrograman dengan Python</div>
-                                <div className="italic md:mb-4">April 2025 - April 2028</div>
-                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/MEPJQD1KWX3V</div>
+                                <div className="italic md:mb-4">Apr 2025 - Apr 2028</div>
+                                <div className="mb-10">
+                                    <a href="https://www.dicoding.com/certificates/MEPJQD1KWX3V" 
+                                       className="bg-[#3e9e9e] hover:bg-[#5B456E] text-white font-bold py-2 px-4 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 block text-center"
+                                       target="_blank" 
+                                       rel="noopener noreferrer">
+                                        View Certificate
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="flex items-center relative">
@@ -137,7 +165,14 @@ function Education(props) {
                             <div className="ml-10">
                                 <div className="font-bold">Belajar Dasar Cloud dan Gen AI di AWS</div>
                                 <div className="italic md:mb-4">May 2025 - May 2028</div>
-                                <div className="mb-10 break-all">https://www.dicoding.com/certificates/NVP752GOVXR0</div>
+                                <div className="mb-10">
+                                    <a href="https://www.dicoding.com/certificates/NVP752GOVXR0" 
+                                       className="bg-[#3e9e9e] hover:bg-[#5B456E] text-white font-bold py-2 px-4 rounded shadow-md transition duration-300 ease-in-out transform hover:scale-105 block text-center"
+                                       target="_blank" 
+                                       rel="noopener noreferrer">
+                                        View Certificate
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
