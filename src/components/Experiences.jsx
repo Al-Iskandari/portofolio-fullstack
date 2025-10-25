@@ -51,7 +51,7 @@ function Experiences(props) {
                     </div>
                 </div>
                 <div className="flex items-center relative">
-                    <div className="flex w-8 h-8 absolute top-1 mt-0 -left-[2px] bg-[#3e9e9e] rounded-full text-center z-20">
+                    <div className="flex items-center justify-center w-8 h-8 absolute top-1 mt-0 -left-[2px] bg-[#3e9e9e] rounded-full text-center z-20">
                         <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 z-100 absolute" style={{positionArea: "center"}} viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"></path><polygon points="12 15 17 21 7 21 12 15"></polygon></svg>
                     </div>
