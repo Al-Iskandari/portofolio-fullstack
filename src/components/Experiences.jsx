@@ -20,7 +20,7 @@ function Experiences(props) {
                     <div className="border-dotted border-r-[4px] border-[#5B456E] absolute h-full left-3 top-2 z-10">
                         <i className="fas fa-circle -top-1 -ml-2 absolute" />
                     </div>
-                    <div className="flex w-8 h-8 absolute top-1 mt-0 -left-[2px] bg-[#5B456E] rounded-full text-center z-20">
+                    <div className="flex items-center justify-center w-8 h-8 absolute top-1 mt-0 -left-[2px] bg-[#5B456E] rounded-full text-center z-20">
                         <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
                         <svg xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 z-100 absolute" style={{positionArea: "center"}} viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
                     </div>
@@ -63,7 +63,7 @@ function Experiences(props) {
                             <div className="border-dotted border-r-[4px] border-[#3e9e9e] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#3e9e9e] rounded-full text-center z-20">
+                            <div className="flex items-center justify-center w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#3e9e9e] rounded-full text-center z-20">
                                 <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
                                 <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
@@ -87,7 +87,7 @@ function Experiences(props) {
                             <div className="border-dotted border-r-[4px] border-[#d15a5a] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#d15a5a] rounded-full text-center z-20">
+                            <div className="flex items-center justify-center w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#d15a5a] rounded-full text-center z-20">
                                 <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
                                 <svg className="w-4 h-4 z-100 absolute" style={{positionArea: "center"}} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.35709 16V5.78571c0-.43393.34822-.78571.77777-.78571H18.5793c.4296 0 .7778.35178.7778.78571V16M5.35709 16h-1c-.55229 0-1 .4477-1 1v1c0 .5523.44771 1 1 1H20.3571c.5523 0 1-.4477 1-1v-1c0-.5523-.4477-1-1-1h-1M5.35709 16H19.3571M9.35709 8l2.62501 2.5L9.35709 13m4.00001 0h2"/>
@@ -111,7 +111,7 @@ function Experiences(props) {
                             <div className="border-dotted border-r-[4px] border-[#e2d488] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#e2d488] rounded-full text-center z-20">
+                            <div className="flex items-center justify-center w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#e2d488] rounded-full text-center z-20">
                                 <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 z-100 absolute" style={{positionArea: "center"}} viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
                             </div>
@@ -132,7 +132,7 @@ function Experiences(props) {
                             <div className="border-dotted border-r-[4px] border-[#3e9e9e] absolute h-full left-1 top-2 z-10">
                                 <i className="fas fa-circle -top-1 -ml-2 absolute" />
                             </div>
-                            <div className="w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#3e9e9e] rounded-full text-center z-20">
+                            <div className="flex items-center justify-center w-8 h-8 absolute top-1 mt-0 -ml-[10px] bg-[#3e9e9e] rounded-full text-center z-20">
                                 <span className="w-5 h-5 absolute block bg-white rounded-full shadow-md shadow-black" style={{positionArea: "center"}}></span>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-3 h-3 z-100 absolute" style={{positionArea: "center"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
                             </div>
